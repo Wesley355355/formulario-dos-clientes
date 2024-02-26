@@ -1,0 +1,11 @@
+body{
+    font-family: arial;
+    background-image: linear-gradient(to right, rgb(25, 199, 66), rgb(41, 64, 35));
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+}
