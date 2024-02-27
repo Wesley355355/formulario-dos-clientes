@@ -4,8 +4,23 @@ body{
 }
 .box {
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 80%;
+    left: 80%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    
+}
+
+fieldset{
+
+    border: 3px solid rgb(42, 209, 0)
+}
+legend{
+    border: 1px solid greenyellow;
+    padding: 3%;
+    margin: 3%;
 }
