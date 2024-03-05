@@ -18,7 +18,7 @@
                 </div>
                 <br></br>
                 <div class="inputBox">
-                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="input">Seu email</label>
                 </div>
                 <br></br>
@@ -26,7 +26,7 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="input">Seu telefone</label>
                 </div>
-                <br></br>
+                <br>
                 <p>sexo:</p>
                 <input type="radio"  id="feminino" nome="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
@@ -35,9 +35,9 @@
                 <input type="radio"  id="outros" nome="genero" value="outros" required>
                 <label for="outros">Outros</label>
                 <br></br>
-                <div class="inputBox">
                     <label for="data_nascimento"><b>Data de nascimento:</b></label>
-                    <input type="date" name="data" id="data_nascimento" class="inputUser" required>
+                    <br></br>
+                    <input type="date" name="data" id="data_nascimento" required>
                     <br></br>
                     <div class="inputBox" >
                         <input type="text" nome="cidade" id="cidade" class="inputUser" required>
@@ -52,7 +52,10 @@
                     <div class="inputBox" >
                         <input type="text" nome="endereço" id="endereço" class="inputUser" required>
                         <label for="endereço" class="input">Endereço</label>
+                        <br>
+                        <div id="aqui">
                         <input type="submit" name="submit" id="submit">
+                    </div>
                     </div>
             </fieldset>
         </form>
